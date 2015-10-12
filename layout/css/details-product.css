@@ -1,0 +1,224 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 9, 2015, 10:45:03 PM
+    Author     : phuongtv
+*/
+#share-buttons img {
+    width: 35px;
+    padding: 5px;
+    border: 0;
+    box-shadow: 0;
+    display: inline;
+}
+/*================================= Page Product======================================*/
+ul.menupage li {
+    height:22px;
+}
+.pd_detail_top .img_detail {
+    margin:0;
+}
+.pd_detail_top .info_detail {
+    margin-right:0px;
+}
+.pd_detail_top > p > img, .pd_detail_top > img {
+    max-width:100%; height:auto;
+}
+.pd_detail_top .img_detail .img_detail_big img.zoom_image, .pd_detail_top .img_detail .img_detail_big img.no_image {
+    max-width:100%;
+}
+.pd_detail_top .img_detail {
+    margin-top: 10px;  
+    border:1px solid #cacaca;
+    max-width: 278px;
+}
+.pd_detail_top .info_detail.col-md-8, .pd_detail_top .info_detail.col-lg-8 {
+    padding-right: 0;
+}
+.pd_detail_top .info_detail .pd_title{
+    margin-top: 10px;
+    padding: 0;
+    padding-bottom: 10px;
+    font-size: 21px;
+    border-bottom: 1px dotted #ccc;
+}
+.pd_detail_top .info_detail h1{
+    color: #3F792F;
+}
+.pd_detail_top .img_detail .img_detail_big {
+    margin: 10px 0;
+    text-align: center;
+}
+.pd_detail_top .img_detail .img_detail_big img.zoom_image, .pd_detail_top .img_detail .img_detail_big img.no_image {
+    max-width: 245px;
+    max-height: 245px;
+    height: 245px;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+}
+.pd_detail_top .img_detail .img_detail_tiny ul li { 
+    float:left;  
+    border:1px solid #cacaca; 
+    height:50px; 
+    overflow:hidden; 
+    padding:4px;  
+    margin-right: 3px;
+    margin-bottom: 5px;}
+.pd_detail_top .img_detail .img_detail_tiny ul li img {
+    max-width: 36px;
+    max-height: 45px;
+    width: 36px;
+    height: 45px;
+}
+.pd_detail_top .info_detail { 
+    margin-right:5px;
+} 
+.pd_detail_top .info_detail h3.pd_title { 
+    font-size:22px; line-height:26px;
+}
+.pd_detail_top .info_detail .social { 
+    margin:10px 0;
+}
+.pd_detail_top .info_detail .pd_price {
+    margin:5px 0;}
+.pd_detail_top .info_detail .pd_price span {
+    display:block; font-weight:bold}
+.pd_detail_top .info_detail .pd_price span.price_sale { 
+    font-size:12px; text-decoration:line-through; color:#555; font-weight:normal}
+.pd_detail_top .info_detail .price_btn {
+    clear:both; overflow:table; margin:15px 0;}
+.pd_detail_top .info_detail .price_btn a { 
+    margin-right:25px;}
+.pd_detail_top .info_detail .price_btn a.btn_now { 
+    background:url(../images/pd-btn.png) repeat-x; padding:8px 25px; color:#fff;moz-border-radius:3px;-webkit-border-radius:3px;border-radius:3px; float:left; font-weight:bold;text-shadow: 0 1px 0 #555;}
+.pd_detail_top .info_detail .price_btn a.btn_buy {
+    background:url(../images/cart-ico2.png) no-repeat 0px 5px; padding-left:30px;line-height:32px; display:inline-block;}
+.pd_detail_top .info_detail .pd_price span.price { 
+    font-size:22px; color:#F00}
+.pd_detail_top .info_detail .pd_compare { 
+    margin:5px 0; clear:both; overflow:hidden}
+.pd_detail_top .info_detail .pd_compare ul li { 
+    float:left; margin-right:10px;}
+.pd_detail_top .info_detail .pd_compare ul li a.compare {
+    moz-border-radius:5px;-webkit-border-radius:5px;border-radius:5px; color:#555; border:1px solid #cacaca; padding:8px 30px; display:block; line-height:inherit;background:#e7e7e7 url(../images/compare.png) no-repeat 5px 8px;box-shadow: 0 1px 1px rgba(255, 255, 255, 0.1) inset;text-shadow: 0 1px 0 #FFFFFF; font-weight:bold}
+.pd_detail_top .info_detail .pd_compare ul li a.compare:hover {
+    color:#000;
+}
+ul#thumblist li {
+    cursor: pointer;
+}
+#img-details img.animation-img{ 
+    transform: scale(0.3);
+    -moz-transform: scale(0.3);
+    -webkit-transform: scale(0.3);
+    transition:all ease 0.8s;
+    -moz-transition:all ease 0.8s;
+    -webkit-transition:all ease 0.8s; 
+}
+.pd_detail_top .info_detail {
+    margin-right: 0px;
+}
+.pd_detail_top .info_detail h1.pd_title {
+    font-size: 22px;
+    line-height: 26px;
+}
+.pd_detail_top .info_detail .product-price-detail {
+    color: #900;
+    font-weight: bold;
+    font-size: 18px;
+    padding-top: 10px
+}
+.product-info-col1 .product-info-state label, .product-info-col1 .product-info-quantity label{
+    color: #34571e
+}
+.product-info-col1 .product-info-quantity input{
+    color: blue;
+    text-align: center;
+    width: 45px;
+}
+/*Begin tab bar*/
+.product-detail-more {
+    margin-top: 20px;
+    width: 100%;
+    display: inline-block;
+}
+ul.tabs {
+    float: left;
+    width: 100%;
+}
+ul.tabs a{
+    color: #34571e;
+}
+.tab_container {
+    clear: both;
+    float: left; 
+    width: 100%;
+}
+.tab_content {
+    padding: 20px 0;
+    display: none;
+}
+/*End tab bar*/
+#detail-order-product table th{
+    text-align: center;
+}
+#detail-order-product table img{
+    max-width: 50px;
+    max-height: 50px;
+}
+#detail-order-product table th:nth-child(1){
+    width: 80px;
+}
+#detail-order-product table th:nth-child(3){
+    width: 130px;
+}
+#detail-order-product table th:nth-child(4){
+    width: 150px;
+}
+#detail-order-product table th:nth-child(5){
+    width: 115px;
+}
+#detail-order-product table th:nth-child(6){
+    width: 110px;
+}
+.ico-refrest {
+    background-position: 1px 0;
+}
+.ico {
+    background: url(../image/icons.png) no-repeat 0 0 transparent;
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+}
+.sc-quantity {
+    max-width: 60px;
+}
+.product-name{
+    font-weight: bold;
+    color: #34571e;
+}
+.sc-totalprice-text {
+    text-align: right;
+}
+.sc-totalprice {
+    font-weight: bold;
+}
+.pricetext{
+    text-align: right;
+}
+.sc-billing-text, .sc-shipping-text {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+#detail-order-product .form-group {
+    margin-right: -15px;
+    margin-left: -15px;
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 15px;
+}

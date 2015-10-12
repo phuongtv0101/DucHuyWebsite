@@ -1,0 +1,192 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 9, 2015, 10:27:11 PM
+    Author     : phuongtv
+*/
+
+@media (min-width:1200px){
+    .ProductActionAdd{ 
+        margin-right:16px;
+    }
+}
+@media (max-width:767px){
+    /*    .col-md-9{
+            padding: 0;
+        }*/
+    #left-menu.menu .submenu > a::after{ border:none;}
+    #left-menu.menu .submenu .menu{  position: static;margin-top: 8px; border-left:none;}
+    #left-menu.menu  li{width:100%; padding: 0} 
+    #left-menu.menu li:hover{background: #fff;}
+    #left-menu.menu li:hover>a, #left-menu li ul li:hover>a{ color:#CC0101}
+    #left-menu.menu li{ border-bottom:none; border-right:none}
+    #left-menu ul.animatedNav.zoomInRight.menu li a{
+        color: #3F792F !important;
+    }
+    #left-menu ul.animatedNav.zoomInRight.menu li a:hover{
+        color: #CC0101 !important;
+    }
+    #left-menu ul.animatedNav.zoomInRight.menu{
+        border: 1px solid #dedede;
+        border-left:none;
+        border-right:none;
+    }
+    #left-menu ul.animatedNav.zoomInRight.menu li{
+        border-bottom: 1px solid #dedede;
+        padding-left: 30px;
+    }
+    #left-menu ul.animatedNav.zoomInRight.menu>li:last-child{
+        border-bottom: none;
+    }
+    #left-menu li ul>li{
+        border-bottom:1px solid #dedede;
+    }
+    #left-menu li ul>li:hover{
+        border:none;
+    }
+    #left-menu li{
+        height: auto;
+    }
+    #left-menu li ul{
+        margin-left: 0px;
+        background: #fff;
+    }
+    #left-menu li ul>li:hover{
+        color: #CC0101;
+
+    }
+    .centerContent{ padding:0px 0 15px 0px;}
+    .center-main-center {margin-top:0px; }
+    .product-detail .product-detail-box .product-detail-img {float: none;width: 100%;}
+    .product-detail .product-detail-box .product-detail-info {margin-left: 0;margin-top: 51px;}
+    .container, #header .top-header .login,#menu-bottom .parent, #header .cont-header-r,  #header .cont-header, #leftCol, #contentCol, .footer, .list.grid .list-item, #footer, .footer-nd {
+        width:100% !important; 
+        float:none;
+    }
+}
+@media only screen and (min-width:480px) and (max-width:767px){
+    /*    .col-md-9{
+            padding: 0;
+        }*/
+    .list.grid .list-item, .footer-nd, #menu-bottom .parent { 
+        width:50% !important; float:left;
+    }
+    #left-menu.menu .submenu > a::after{ border:none;}
+    #left-menu.menu .submenu .menu{  position: static;margin-top: 8px; border-left:none;}
+    #left-menu.menu  li{width:100%; padding: 0} 
+    #left-menu.menu li:hover{background: #fff;}
+    #left-menu.menu li:hover>a, #left-menu li ul li:hover>a{ color:#CC0101}
+    #left-menu.menu li{ border-bottom:none; border-right:none}
+    #left-menu ul.animatedNav.zoomInRight.menu li a{
+        color: #3F792F !important;
+    }
+    #left-menu ul.animatedNav.zoomInRight.menu li a:hover{
+        color: #CC0101 !important;
+    }
+    #left-menu ul.animatedNav.zoomInRight.menu{
+        border: 1px solid #dedede;
+        border-left:none;
+        border-right:none;
+    }
+    #left-menu ul.animatedNav.zoomInRight.menu li{
+        border-bottom: 1px solid #dedede;
+        padding-left: 30px;
+    }
+    #left-menu ul.animatedNav.zoomInRight.menu>li:last-child{
+        border-bottom: none;
+    }
+    #left-menu li ul>li{
+        border-bottom:1px solid #dedede;
+    }
+    #left-menu li ul>li:hover{
+        border:none;
+    }
+    #left-menu li{
+        height: auto;
+    }
+    #left-menu li ul{
+        margin-left: 0px;
+        background: #fff;
+    }
+    #left-menu li ul>li:hover{
+        color: #CC0101;
+
+    }
+}
+@media only screen and (min-width:768px) and (max-width:992px)
+{
+    /*    .col-md-9{
+            padding: 0;
+        }*/
+    #left-menu.menu .submenu > a::after{ border:none;}
+    #left-menu.menu .submenu .menu{  position: static;margin-top: 8px; border-left:none;}
+    #left-menu.menu  li{width:100%; padding: 0} 
+    #left-menu.menu li:hover{background: #fff;}
+    #left-menu.menu li:hover>a, #left-menu li ul li:hover>a{ color:#CC0101}
+    #left-menu.menu li{ border-bottom:none; border-right:none}
+    #left-menu ul.animatedNav.zoomInRight.menu li a{
+        color: #3F792F !important;
+    }
+    #left-menu ul.animatedNav.zoomInRight.menu li a:hover{
+        color: #CC0101 !important;
+    }
+    #left-menu ul.animatedNav.zoomInRight.menu{
+        border: 1px solid #dedede;
+        border-left:none;
+        border-right:none;
+    }
+    #left-menu ul.animatedNav.zoomInRight.menu li{
+        border-bottom: 1px solid #dedede;
+        padding-left: 30px;
+    }
+    #left-menu ul.animatedNav.zoomInRight.menu>li:last-child{
+        border-bottom: none;
+    }
+    #left-menu li ul>li{
+        border-bottom:1px solid #dedede;
+    }
+    #left-menu li ul>li:hover{
+        border:none;
+    }
+    #left-menu li{
+        height: auto;
+    }
+    #left-menu li ul{
+        margin-left: 0px;
+        background: #fff;
+    }
+    #left-menu li ul>li:hover{
+        color: #CC0101;
+
+    }
+    
+    .footer-nd { width:23.5%;}
+    .list.grid .list-item, #menu-bottom .parent{ width:33.333333% !important;}
+    .list.grid .list-item:last-child{ display:none;}
+    #nav{ min-height:100px;}
+    .ProductActionAdd{ margin-right:2px;}
+    .list.grid .list-item:last-child{ display:none;}
+    .sale .list.grid .list-item:first-child{ display:none;}
+
+}
+@media (min-width: 768px)
+{
+    .form-control {
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .col-sm-3 {
+        width: 25%;
+    }
+    .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+        float: left;
+    }
+    .billing .control-label {
+        padding-top: 7px;
+        margin-bottom: 0;
+        text-align: right;
+    }
+}

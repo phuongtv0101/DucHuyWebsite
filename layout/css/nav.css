@@ -1,0 +1,248 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 9, 2015, 10:18:08 PM
+    Author     : phuongtv
+*/
+
+/* Hiệu ứng animate  */
+.animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+.animatedNav {
+    -webkit-animation-duration: 0.4s;
+    animation-duration: 0.4s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+.animated.infinite {
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+
+.animated.hinge {
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+}
+@-webkit-keyframes zoomInRight {
+    0% {
+        opacity: 0;
+        -webkit-transform: scale3d(.1, .1, .1) translate3d(1000px, 0, 0);
+        transform: scale3d(.1, .1, .1) translate3d(1000px, 0, 0);
+        -webkit-animation-timing-function: cubic-bezier(0.550, 0.055, 0.675, 0.190);
+        animation-timing-function: cubic-bezier(0.550, 0.055, 0.675, 0.190);
+    }
+
+    60% {
+        opacity: 1;
+        -webkit-transform: scale3d(.475, .475, .475) translate3d(-10px, 0, 0);
+        transform: scale3d(.475, .475, .475) translate3d(-10px, 0, 0);
+        -webkit-animation-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1);
+        animation-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1);
+    }
+}
+
+@keyframes zoomInRight {
+    0% {
+        opacity: 0;
+        -webkit-transform: scale3d(.1, .1, .1) translate3d(1000px, 0, 0);
+        transform: scale3d(.1, .1, .1) translate3d(1000px, 0, 0);
+        -webkit-animation-timing-function: cubic-bezier(0.550, 0.055, 0.675, 0.190);
+        animation-timing-function: cubic-bezier(0.550, 0.055, 0.675, 0.190);
+    }
+
+    60% {
+        opacity: 1;
+        -webkit-transform: scale3d(.475, .475, .475) translate3d(-10px, 0, 0);
+        transform: scale3d(.475, .475, .475) translate3d(-10px, 0, 0);
+        -webkit-animation-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1);
+        animation-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1);
+    }
+}
+
+.zoomInRight {
+    -webkit-animation-name: zoomInRight;
+    animation-name: zoomInRight;
+}
+/*end*/
+/*#container #navbar-header{
+    border-top: 1px solid #b7cabb;
+    border-bottom: 1px solid #b7cabb;
+}*/
+#container #navbar-header .col-md-9{
+    padding: 0;
+}
+#container #navbar-header.row{
+    margin: 0px 15px;
+    background-color: #3f792f;
+    border: 1px solid #dedede;
+}
+#container #navbar-header .navbar-brand{
+    font-size: 14px;
+}
+#container .navbar-inverse{
+    background: none;
+    border-color: transparent;
+    margin-bottom: -1px;
+}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{
+    border-color: #b7cabb;
+}
+.navbar-inverse .navbar-nav > li > a,.navbar-header a.navbar-brand{
+    color: #fff;
+    font-weight:bold;
+}
+.navbar-header a.navbar-brand:hover{
+    background: #fff;
+}
+.navbar-inverse .navbar-toggle {
+    background: #3f792f;
+    border-color: #fff
+}
+.NavContent {
+    padding: 10px 0px;
+    font-size: 14px;
+    color: #3f792f;
+}
+#navbar ul li:hover{
+    background: #fff
+}
+.NavLink {
+    padding-left: 10px;
+    margin-left: 7px;
+    background: url(../image/icon-nav.gif) no-repeat left center;
+}
+#left-menu.menu {
+    border: 0;
+    background: #e5f1e7;
+    margin: 0;
+    padding:0;
+    border-radius: 0;
+}
+#left-menu li.itop {
+    background: url(../image/bg.gif) no-repeat 95% center;
+}
+#left-menu li {
+    text-align: left;
+    padding: 0px 0 0px 5px;
+    height: 40px;
+    border-bottom: 1px solid #dedede;
+    border-right: 1px solid #dedede;
+    cursor: pointer
+
+
+}
+#left-menu li.last {
+    border-bottom: none;
+}
+#left-menu li a:link, #left-menu li a:visited {
+    padding: 7px 0 7px 15px;
+    color: #3F792F;
+}
+#left-menu li:hover, #left-menu li:hover > a{
+    color: #fff;
+}
+#left-menu li:hover{
+    background-color: #3f792f;
+}
+#left-menu li.itop:hover{
+    background: url(../image/icon-nav-selected.gif) no-repeat 95% center;
+    background-color: #3f792f;
+}
+#left-menu li > ul {
+    display: none;
+}
+#left-menu li ul {
+    background: #3f792f;
+    position: absolute;
+    margin-left: 257px;
+    margin-top: -34px;
+    min-width:220px;
+    z-index: 2;
+}
+#left-menu li ul>li {
+    width:100%;
+    cursor: pointer
+}
+#left-menu li ul>li a {
+    color:#fff !important;
+}
+#left-menu li ul>li:hover{
+    background:#fff;
+    border:1px solid #dedede;
+}
+#left-menu li ul>li:hover a {
+    background:none;
+    color:#3f792f !important;
+}
+#left-menu li:hover > ul {
+    display: block;
+}
+#menu-bottom {
+    margin-top: 10px;
+    background: #3F792F !important;
+    display: block;
+    margin-bottom: 20px;
+}
+.menu-bottom li.first {
+    border-left: none;
+}
+.menu-bottom li.parent {
+    float: left;
+    width: 25%;
+    max-height: 125px;
+    border-left: 1px dotted #fff;
+}
+.menu-bottom h3 {
+    color: #fff;
+}
+.menu-bottom h3 {
+    padding: 0 0 7px 10px;
+    height: 12px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.menu-bottom li li {
+    margin-bottom: 6px;
+    margin-left: 30px;
+    font-size: 11px;
+    list-style: square;
+    color: #fff;
+}
+.menu-bottom li li a{
+    color: #fff;
+}
+.menu-bottom li li a:hover{
+    text-decoration: underline;
+}
+.social a {
+    background-image: url(../image/social.png);
+    background-repeat: no-repeat;
+    float: left;
+    margin: 4px 8px 4px 14px;
+    padding-left: 26px;
+    width: 64px;
+    height: 22px;
+    line-height: 22px;
+    font-size: 11px;
+    color: #fff;
+}
+.social a.facebook {
+    background-position: 0 0;
+}
+.social a.youtube {
+    background-position: 0 -45px;
+}
+.social a.googleplus {
+    background-position: 0 -68px;
+}
